@@ -44,6 +44,7 @@ var rootCmd = &cobra.Command{
 			os.Exit(0)
 		}()
 		prog.Start()
+		log.Infof("txRay starts, press Ctrl + C to stop")
 		select {}
 	},
 }
